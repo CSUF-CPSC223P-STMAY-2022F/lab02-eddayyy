@@ -30,11 +30,9 @@ def modify_contact(contact_list):
         y = input("Enter last name: ")
         contact_list.insert(i, [x, y])
         # contact_list[modified_contact] = [x, y]
-        print("\n      *** TUFFY TITAN CONTACT MAIN MENU\n1. Print list\n2. Add contact\n3. Modify contact\n4. Delete contact\n5. Exit the program")
         return contact_list
     else:
         print("Invalid index number.")
-        print("\n      *** TUFFY TITAN CONTACT MAIN MENU\n1. Print list\n2. Add contact\n3. Modify contact\n4. Delete contact\n5. Exit the program")
         return contact_list
 
 def delete_contact(contact_list):
