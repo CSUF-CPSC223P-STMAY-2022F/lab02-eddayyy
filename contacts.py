@@ -1,6 +1,7 @@
 # Author Name: Eduardo NUnez
 # Author email: eduardonunez@csu.fullerton.edu
-# File Purpose: 
+# File Purpose: This file defines multiple functions that provide support of the overall program.
+# Functions have doc strings that elaborate on the purpose and overall method. 
 
 def print_list(contact_list):
     ''' This functions prints out our contacts list. '''
