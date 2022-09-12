@@ -8,15 +8,16 @@ def print_list(contact_list):
     print("\n================== CONTACT LIST ==================\n", "Index   First Name            Last Name\n", "======  ====================  ====================")
     for contact in contact_list:
         print(f'{contact_list.index(contact)}\t {contact[0]}\t\t\t{contact[1]}')
-
-
+    print("\n      *** TUFFY TITAN CONTACT MAIN MENU\n1. Print list\n2. Add contact\n3. Modify contact\n4. Delete contact\n5. Exit the program")
 
 def add_contact(contact_list):
     ''' This function allows the user to add a contact to contact_list.''' 
     x = input("\nEnter the first name: ")
     y = input("\nEnter the last name: ")
     contact_list.append([x,y])
+    print("\n      *** TUFFY TITAN CONTACT MAIN MENU\n1. Print list\n2. Add contact\n3. Modify contact\n4. Delete contact\n5. Exit the program")
     return contact_list
+
 
 
 def modify_contact(contact_list):
@@ -29,9 +30,11 @@ def modify_contact(contact_list):
         y = input("Enter last name: ")
         contact_list.insert(i, [x, y])
         # contact_list[modified_contact] = [x, y]
+        print("\n      *** TUFFY TITAN CONTACT MAIN MENU\n1. Print list\n2. Add contact\n3. Modify contact\n4. Delete contact\n5. Exit the program")
         return contact_list
     else:
         print("Invalid index number.")
+        print("\n      *** TUFFY TITAN CONTACT MAIN MENU\n1. Print list\n2. Add contact\n3. Modify contact\n4. Delete contact\n5. Exit the program")
         return contact_list
 
 def delete_contact(contact_list):
@@ -40,10 +43,13 @@ def delete_contact(contact_list):
     i = int(input_string)
     if i < len(contact_list):
         contact_list.pop(i)
+        print("\n      *** TUFFY TITAN CONTACT MAIN MENU\n1. Print list\n2. Add contact\n3. Modify contact\n4. Delete contact\n5. Exit the program")
         return contact_list
     else:
         print("Invalid index number.")
+        print("\n      *** TUFFY TITAN CONTACT MAIN MENU\n1. Print list\n2. Add contact\n3. Modify contact\n4. Delete contact\n5. Exit the program")
         return contact_list
+
 
 
 

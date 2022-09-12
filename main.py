@@ -7,7 +7,7 @@ from contacts import *
 
 contact_list = []
 
-print("      *** TUFFY TITAN CONTACT MAIN MENu\n1. Print list\n2. Add contact\n3. Modify contact\n4. Delete contact\n5. Exit the program")
+print("      *** TUFFY TITAN CONTACT MAIN MENU\n1. Print list\n2. Add contact\n3. Modify contact\n4. Delete contact\n5. Exit the program")
 while True:
      x = input("\nEnter menu choice: ")
      if x == "1":
