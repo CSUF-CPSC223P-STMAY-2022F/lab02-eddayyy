@@ -21,5 +21,5 @@ while True:
      elif x == '5':
           exit_program()
      else:    
-          print("Invalid input")
-          exit_program()
+          print("Invalid input. Feel free to run the program again. Good-Bye!")   
+          quit()
